@@ -1,0 +1,176 @@
+<html>
+  <head>
+  <link href="main3.css" type="text/css" rel="stylesheet" />
+ <link rel="stylesheet" href="js&jq/jquery-ui.css">
+  <script src="js&jq/button.js"></script>
+  <script src="js&jq/jquery-3.3.1.min.js"></script>
+  <script src="js&jq/jquery-ui.min.js"></script>	
+<script type="text/javascript"> 
+           $(document).ready(function() {
+                $('#navigationMenu li .normalMenu').each(function() {
+				// each()方法规定为每个匹配元素规定运行的函数
+                    $(this).before($(this).clone().removeClass().addClass('hoverMenu'));
+					// clone()方法克隆并追加选定的元素（包含其子节点、文本和属性）
+					// removeClass()方法从元素移除一个或多个类，如果没有规定参数则删除所有类
+                });
+                $('#navigationMenu li').hover(
+				// hover()方法规定当鼠标指针在元素悬停和离开上时要运行的两个函数
+					function() { $(this).find('.hoverMenu').stop().animate({ marginTop: '0px' }, 200);},
+					// find()方法搜索当前元素中的后代元素
+					function() { $(this).find('.hoverMenu').stop().animate({ marginTop: '-24px' }, 200);}
+				);
+            });
+</script>
+ <script>
+			$(function() {
+				var keywords = ["晨曦恋歌", "幸运小猫", "店长也疯狂", "街头热血篮球", "别跑精灵", 
+				                 "皇后在上", "甜心恋人", "浅浅梦女王", "聊天女仆之魔法", "恋在风下",
+								 "火柴人生存挑战", "果汁瓶跳跃", "蛇与方块", "我的世界消消乐", "积木拼图",
+								 "超人不会飞", "逃离度假别墅", "六角拼拼", "挑战瞬间记忆", "史上最坑爹的游戏8",
+								 "倚天屠龙记", "魔域来了之魔域神曲", "英雄霸业", "屠神", "水龙吟", ];
+				$("#search").autocomplete({
+					source: keywords
+				});
+			});
+</script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 class="header">QXLY小游戏</h1>
+      <div class="left">
+        <a href="index.htm" title="女生 闯关 益智 休闲 传奇 ">首页</a>
+        <a href="2-1女生.htm" title="攻略 恋爱 文字 休闲 剧情">女生</a>
+        <a href="2-3闯关.htm" title="消消乐 赛车 益智 娱乐 跑酷">闯关</a>
+        <a href="2-4益智.htm" title="答题 围棋 象棋 解密 密室">益智</a>
+        <a href="2-2休闲.htm" title="娱乐 搞笑 益智 休闲 点泡泡">休闲</a>
+        <a href="2-5传奇.htm" title="龙族 休闲 修仙 王者 水月">传奇</a>
+      </div>
+      <div class="right">
+      <p><span style=" display:block; width:300px; height:36px; background:#0080C0; color:white; font-size:20px; float:left; margin-left:80px;">
+         <input type="text" placeholder="游戏名/游戏类别/游戏装备" 
+         id="search" style="border:none; width:240px; height:30px; margin-top:3px; text-align:left;" />
+         <a href="javascript:test()" style="margin-left:2px; margin-right:2px; text-decoration:none; color:#FFF;">搜索</a></span></p>
+      </div>
+</div>
+<div class="container1">
+<div class="container2">
+	        <div class="block1">
+		          <ul id="navigationMenu">
+                      <li><a href="index.htm" class="normalMenu">首页</a></li>
+                      <li><a href="2-5传奇.htm" class="normalMenu">传奇系列</a></li>
+                      <li><a href="2-5传奇.htm" class="normalMenu">魔幻武侠</a></li>
+                      <li><a href="2-1女生.htm" class="normalMenu">剧情文字</a></li>
+                      <li><a href="2-2休闲.htm" class="normalMenu">休闲放置</a></li>
+                      <li><a href="2-4益智.htm"class="normalMenu">智能</a></li>
+                      <li><a href="2-4益智.htm" class="normalMenu">益智烧脑</a></li>
+                      <li><a href="2-3闯关.htm" class="normalMenu">赛车</a></li>
+                      <li><a href="2-2休闲.htm" class="normalMenu">儿童</a></li>
+                      <li><a href="2-3闯关.htm" class="normalMenu">策略</a></li>
+                      <li><a href="index.htm" class="normalMenu">体育运动</a></li>
+              </ul>
+            </div>		
+    </div>
+  <div><img src="img/版头动图.gif"></div>
+  <div class="block2">
+  <p>当前位置:<a href="index.htm">QXLY游戏</a> > <a href="2-2休闲.htm">休闲</a> > <a href="3.5.4.htm">屠神</a></p>
+</div>
+<div class="container3">
+     <div class="block3">
+     <img src="img/屠神.jpg" width="320px" height="310px"/>
+      </div>
+     <div class="block4" style=" ">
+     <p><h1>&nbsp;</h1>
+     <h1>屠神</h1></p>
+     <p><b>推荐指数：⭐⭐⭐⭐⭐</b></p> 
+     <p><b>游戏标签：</b><span style="background:#35BDFF; padding:3px; color:#FFF;">传奇系列</span>
+                         <span style="background:#FF8080; padding:3px; color:#FFF;">休闲</span></p>
+     <p><b>更新时间：</b>  2018-07-19   </p>
+     <p><b>游戏简介：</b> <span style="font-family:'仿宋';">MMOARPG竖版手机网络H5《屠神H5》热血降临，游戏以经典1.76版为核心，打造独特战斗PK模式。玩家可享受千
+人同屏的激情攻沙，也能感受成 
+
+</span></p>
+     <p>
+     <span class="button1"><a href="#">开始游戏</a></span>
+     <span class="button2"><a href="#">微端下载</a></span></p>
+     </div>
+    </div>
+ <div class="container4">
+ <div class="block5">
+ <ul><li>游</li><li>戏</li><li>推</li><li>荐</li></ul></div>
+ <div class="block6" style="margin-left:80px; margin-top:-120px;">
+                      <a href="#"><span><img src="img/叫我猫主子.jpg" />我猫主子</span></a>
+                      <a href="#"><span><img src="img/金庸侠客传.png" />金庸侠客</span></a>
+                      <a href="#"><span><img src="img/轮回决.jpg" />轮回决</span></a>
+                      <a href="#"><span><img src="img/口袋妖怪大师.jpg" />口袋妖怪</span></a>
+                      <a href="#"><span><img src="img/决战沙城.gif" />决战沙城</span></a>
+                      <a href="#"><span><img src="img/龙族霸业.png" />龙族霸业</span></a>
+                      <a href="#"><span><img src="img/荣耀足球.png" />荣耀足球</span></a>
+                      <a href="#"><span><img src="img/凡人飞仙传.png" />凡人飞仙</span></a>
+                      <a href="#"><span><img src="img/齐天大圣.jpg" />齐天大圣</span></a>
+                      <a href="#"><span><img src="img/非人学院.jpg" />文字修真</span></a>
+                </div>
+ </div>
+ <div class="container5">
+     <p><b>玩前必看</b><br/>
+        操作指南：
+        <h style=" font-family:'仿宋'">比较简单，玩家主要通过点击屏幕或拖动、滑动屏幕来进行游戏。
+       部分游戏在PC端，请尝试使用键盘的方向键，空格键，或者WSAD按键进行操作。手机用户请直接在屏幕上进行手势操作。
+       注意：Html5游戏不支持旧版IE8及以下浏览器，如出现游戏排版错乱或者无法显示，请升级至新版，推荐使用谷歌浏览器或者火狐进行游戏。
+        核弹头小游戏玩家QQ群每日推送精品好玩的游戏，还有各种福利等你来拿!欢迎加入，祝您游戏愉快!</h></p>
+ </div>
+ <div class="container6">
+     <p><b>游戏截图</b></p>
+         <p><img src="img/屠神截图1.jpg"/><img src="img/屠神截图2.jpg"/><img src="img/屠神截图3.jpg"/></p>
+ </div>
+ <div class="container7">
+    <p><b>相关游戏推荐</b></p>
+       <div class="block6">
+                      <a href="#"><span><img src="img/叫我猫主子.jpg" />我猫主子</span></a>
+                      <a href="#"><span><img src="img/金庸侠客传.png" />金庸侠客</span></a>
+                      <a href="#"><span><img src="img/轮回决.jpg" />轮回决</span></a>
+                      <a href="#"><span><img src="img/口袋妖怪大师.jpg" />口袋妖怪</span></a>
+                      <a href="#"><span><img src="img/决战沙城.gif" />决战沙城</span></a>
+                      <a href="#"><span><img src="img/龙族霸业.png" />龙族霸业</span></a>
+                      <a href="#"><span><img src="img/荣耀足球.png" />荣耀足球</span></a>
+                      <a href="#"><span><img src="img/凡人飞仙传.png" />凡人飞仙</span></a>
+                      <a href="#"><span><img src="img/齐天大圣.jpg" />齐天大圣</span></a>
+                      <a href="#"><span><img src="img/非人学院.jpg" />文字修真</span></a>
+                      <a href="#"><span><img src="img/决战沙城.gif" />决战沙城</span></a>
+                      <a href="#"><span><img src="img/口袋妖怪大师.jpg" />口袋妖怪</span></a>
+                      <a href="#"><span><img src="img/龙族霸业.png" />龙族霸业</span></a>
+                      <a href="#"><span><img src="img/荣耀足球.png" />荣耀足球</span></a>
+                      <a href="#"><span><img src="img/神游记.png" />神游记</span></a>
+                      <a href="#"><span><img src="img/琅琊榜.jpg" />琅琊榜</span></a>
+                      <a href="#"><span><img src="img/小猪佩奇.jpg" />小猪佩奇</span></a>
+                      <a href="#"><span><img src="img/妖怪梦可宝.jpg" />梦可宝</span></a>
+                      <a href="#"><span><img src="img/黄金裁决.png" />黄金裁决</span></a>
+                      <a href="#"><span><img src="img/齐天大圣.jpg" />齐天大圣</span></a>
+                      <a href="#"><span><img src="img/轮回决.jpg" />轮回决</span></a>
+                      <a href="#"><span><img src="img/神谕.jpg" />神谕业</span></a>
+                </div>
+          </div>
+  <div class="container8">
+      <table width="100%" border="1" class="tab2">
+        <tr>
+          <td><ul>
+                 <li><a href="#">2019第一桶金 《热血合击》元宝获取全解</a></li>
+                 <li><a href="#">暗裔来袭《光明勇士》暗裔入侵玩法详解</a></li></ul></td>
+          <td><ul>
+                 <li><a href="#">《螺旋英雄谭》火爆公测中 螺旋经典OP内田彩</a></li>
+                 <li><a href="#">孤高传说宇智波斑 S级传说之忍上线《火影忍者》</a></li></ul></td>
+          <td><ul>
+                 <li><a href="#">空降TOP1？《非人学园》日韩版本上线好评如潮</a></li>
+                 <li><a href="#">开启你的羁绊《姬魔恋战纪》专注虐汪一百年</a></li></ul></td>
+        </tr>
+      </table></div>
+    </div>
+  </div>
+      <div class="footer">
+     <p><a href="#">关于我们</a>|<a href="#">联系我们</a>|<a href="#">招贤纳士</a>|<a href="#">网站地图</a><br/> 
+      Copyright@2018-2019QXLY.All.rights.received<br/>
+      津网文【2018】1158-009号 津工cp备18003662号 增值电信业务经营许可证 津B2-20160027</p>
+      </div>
+    </div>
+  </body>
+</html>

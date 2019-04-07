@@ -1,0 +1,291 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{
+	text-align:center;
+	background:url(img/i1.jpg) fixed;
+}
+ div.container{
+        line-height:150%;
+		width:102%;
+		text-align:center;
+      }
+      div.header
+      {
+        padding:0.5em;
+		height:80px;
+        color:white;
+		margin-top:-10px;
+		margin-left:-10px;
+        background-color:#333f4f;
+        text-align:center;
+      }
+ div.footer{
+	    padding:1em;
+		color:#666;
+		font-size:12px;
+		margin-left:-10px;
+		background-color:#333f4f;
+        text-align:center;
+		height:80px;
+		width:103%;
+	  }
+	  div.footer p{
+		  width:600px; 
+		  height:80px;
+		  margin-left:380px;
+		  position:absolute;
+	  }
+	  div.footer a{
+		  margin-left:5px;
+		  text-decoration:none;
+		  color:#666;
+	  }
+	  div.footer a:hover{
+		  color:#35BDFF;
+	  }
+      h1.header
+      {
+        float:left;
+		font-family:"华文行楷";
+		font-size:36px;
+		color:#FFF;
+		margin-left:80px;
+		margin-top:10px;
+		padding:10px;
+      }
+      div.left
+      {
+        width:600px;
+        height:20px;
+        margin-left:100px;
+        padding-top:20px;
+		font-size:18px;
+      }
+	  div.left a{
+		  text-decoration:none;
+		  color:#FFF;
+		  margin-left:20px;
+	  }
+	  div.left a:hover{
+		  color:#35BDFF;
+	  }
+	  div.right{
+		  width:500px;
+          height:40px;
+		  position:absolute;
+		  float:left;
+		  margin-left:700px;
+		  margin-top:-40px;
+	  }
+div.container9{
+	background:#FFF;
+	width:1050px;
+	margin:0px auto;
+}
+div.container10{
+	 background:#000;
+	 height:30px;
+     width:1050px;
+	  }
+div.container7{
+	 background:#FFF;
+	 height:30px;
+     width:1050px;
+	  }
+div.block5{
+	position: absolute;
+	height:20px; 
+	margin-top:-16px;
+	margin-left: -10px;
+	width:1050px;
+}
+div.block5 ul { height:30px; list-style-type:none;overflow: hidden;}
+div.block5 li {float: left;}
+div.block5 li a {
+		display:block;
+        width:82px;
+      }
+div.block5 li a:link,div.block5 li a:visited {
+        font-size: 15px;
+        color:#ffffff;
+        text-align:center;
+        background-color:#000000;
+        padding:2px;
+        text-decoration:none;
+      }
+div.block5 li a:hover {
+        color:#35BDFF;
+      }
+div.container2{
+	background:#FFF;
+	width:1050px;
+	margin:0;
+}
+div.block1 ul{
+	width:1050px;
+    background:#FFF;
+	margin:0px auto;
+	font-size:12px;
+	list-style-type:none;
+
+}
+div.block1 ul li{
+	float:left;
+	position:relative;
+	padding:5px;
+}
+div.block1 ul li a{
+	color:#000;
+	text-decoration:none;
+}
+div.block1 ul li a:hover{
+	color:#35BDFF;
+}
+div.container3{
+	width:1050px;
+	height:220px;
+	 margin:0;
+}
+div.block2 span{
+	float:left;
+	margin-left:15px;
+	margin-top:10px;
+	width:75px;
+	height:95px;
+	display:block;
+	text-align:center;
+}
+div.block2 span img{
+	width:75px;
+	height:75px;
+	border-radius: 15px;
+}
+div.block2 a{
+	font-size:12px;
+	color:#000;
+	text-decoration:none;
+}
+div.block2 a:hover{
+	color:#35BDFF;
+}
+div.container4{
+	width:1050px;
+	height:150px;
+	 margin:0;
+}
+div.container4 a:hover span {
+	color:#35BDFF;
+}
+div.block3 span{
+	float:left;
+	margin-left:15px;
+	margin-top:10px;
+	width:128px;
+	height:148px;
+	display:block;
+	text-align:center;
+}
+div.block3 span img{
+	border-radius: 15px;
+}
+div.block3 a{
+	font-size:16px;
+	color:#000;
+	text-decoration:none;
+}
+div.block3 a:hover{
+	color:#35BDFF;
+}
+div.container5{
+	width:1050px;
+	height:200px;
+	 margin:0;
+}
+.tab1{
+	font-family:"宋体";
+	font-size:18px;
+	border-color:transparent;
+	margin-left:20px;
+}
+.tab1 a{
+	text-decoration:none;
+	color:#000;
+}
+.tab1 a:hover{
+	color:#35BDFF;
+}
+div.container6{
+	width:1050px;
+	height:200px;
+	 margin:0;
+}
+div.block4 span{
+	float:left;
+	margin-left:15px;
+	margin-top:10px;
+	width:75px;
+	height:95px;
+	display:block;
+	text-align:center;
+}
+div.block4 span img{
+	width:75px;
+	height:75px;
+	border-radius: 15px;
+}
+div.block4 a{
+	font-size:12px;
+	color:#000;
+	text-decoration:none;
+}
+div.block4 a:hover{
+	color:#35BDFF;
+}
+.tab2{
+	font-family:"宋体";
+	font-size:14px;
+	border-color:transparent;
+	}
+.tab2 ul li{
+	margin-top:20px;
+}
+.tab2 ul li a{
+	text-decoration:none;
+	color:#333;
+}
+.tab2 ul li a:hover{
+	color:#35BDFF;
+}
+div.container{
+	text-align:left;
+}
+div.container8{
+	width:1030px;
+	padding:10px;
+	 margin:0;
+}
+div.container8 a{
+	text-decoration:none;
+	font-family:"宋体"
+	font-size:16px;
+	color:#333;
+}
+div.container8 a:hover{
+	color:#35BDFF;
+}
+.normalMenu, .hoverMenu {
+    outline: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.hoverMenu {
+    margin-top: -24px;
+    background:#000;
+    color: #444444;
+}
+
+.normalMenu {
+    color: white;
+    background:#000;
+}

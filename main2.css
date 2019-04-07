@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	text-align:center;
+	background:url(img/i1.jpg) fixed;
+}
+ div.container
+      {
+        margin:0;
+        padding:0;
+        width:101%;
+        line-height:150%;
+		text-align:center;
+      }
+	  div.container1
+	  {
+		  background:#fff;
+		  padding:20px;
+		  width:1050px;
+		  margin:0 auto;
+	  }
+	  
+      div.header
+      {
+        padding:0.5em;
+		height:70px;
+        color:white;
+		margin-left:-10px;
+		margin-top:-10px;
+        background-color:#333f4f;
+        clear:left;
+        text-align:center;
+      }
+	  div.footer{
+		height:100px;
+		width:103%;
+		color:#666;
+		font-size:12px;
+		margin-left:-10px;
+		background-color:#333f4f;
+        text-align:center;
+	  }
+	  div.footer p{
+		  width:600px; 
+		  height:80px;
+		  margin-left:380px;
+		  position:absolute;
+	  }
+	  div.footer a{
+		  margin-left:5px;
+		  text-decoration:none;
+		  color:#666;
+	  }
+	  div.footer a:hover{
+		  color:#35BDFF;
+	  }
+      h1.header
+      {
+        float:left;
+		font-family:"华文行楷";
+		font-size:36px;
+		color:#FFF;
+		margin-left:80px;
+		margin-top:10px;
+		padding:10px;
+      }
+      div.left
+      {
+        width:600px;
+        height:20px;
+        margin-left:100px;
+        padding-top:20px;
+		font-size:18px;
+      }
+	  div.left a{
+		  text-decoration:none;
+		  color:#FFF;
+		  margin-left:20px;
+	  }
+	  div.left a:hover{
+		  color:#35BDFF;
+	  }
+	  div.right{
+		  width:500px;
+          height:40px;
+		  position:absolute;
+		  float:left;
+		  margin-left:700px;
+		  margin-top:-40px;
+	  }
+	  div.container4 {
+		  background:#FFF;
+		  width:1050px;
+		  height:180px;
+		  margin:0 auto;
+	  }
+       div.container4 a:hover span {
+	             color:#35BDFF;
+   }
+    div.block3 span{
+	float:left;
+	margin-left:15px;
+	margin-top:10px;
+	width:128px;
+	height:148px;
+	display:block;
+	text-align:center;
+   }
+    div.block3 span img{
+	border-radius: 15px;
+   }
+      div.block3 a{
+	font-size:16px;
+	color:#000;
+	text-decoration:none;
+   }
+   div.block3 a:hover{
+	color:#35BDFF;
+   }
+div.container2 {
+		  background:#FFF;
+		  width:1050px;
+		  height:150px;
+		  margin:0 auto;
+		  border:1px solid #CCC;
+	  }
+div.container2 p{
+	text-align:left;
+	margin-left:20px;
+	margin-top:20px;
+}
+div.container2 a{
+	text-decoration:none;
+	color:#666;
+	margin-left:5px;
+}
+div.container2 a:hover{
+	color:#35BDFF;
+}
+div.container2 span a{
+	text-decoration:none;
+	color:#FFF;
+	margin-left:5px;
+}
+div.container2 span a:hover{
+	color:#FFF;
+}
+div.container3{
+	width:1050px;
+	margin:0 auto;
+	padding:0;
+}
+	
+div.block2{
+	width:1050px;
+	height:700px;
+}
+div.block2 span{
+	float:left;
+	font-size:14px;
+	margin-left:30px;
+	margin-top:20px;
+	width:300px;
+	height:120px;
+	display:block;
+	text-align:center;
+}
+div.block2 span img{
+	width:90px;
+	height:90px;
+	margin-top:10px;
+	margin-left:5px;
+	margin-right:5px;
+	border-radius: 15px;
+}	
+div.block2 a{
+	text-decoration:none;
+	color:#333;
+}
+div.block2 a:hover{
+	color:#35BDFF;
+}
+div.block2 span p{
+	text-align:left;
+	margin-left:20px;
+	margin-top:6px;
+}
+div.weizhi
+{
+	text-align:left;
+	margin-left:5px;
+}
+div.weizhi a{
+	text-decoration:none;
+	color:#333;
+}
+div.weizhi a:hover{
+	color:#35BDFF;
+}
+div.container1{
+	width:1050px;
+	margin:0px auto;
+}
+div.container5{
+	 background:#FFF;
+	 height:30px;
+     width:1050px;
+	  }
+div.block1{
+	height:30px; 
+	width:1090px;
+	margin-left:-20px;
+	margin-top:-35.9px;
+	background-color:#000000;
+}
+div.block1 ul {list-style-type:none;overflow: hidden;}
+div.block1 li {float: left;}
+div.block1 li a {
+		display:block;
+        width:80.7px;
+      }
+div.block1 li a:link,div.block1 li a:visited {
+        font-size: 15px;
+        color:#ffffff;
+        text-align:center;
+        background-color:#000000;
+        padding:2px;
+        text-decoration:none;
+      }
+div.block1 li a:hover {
+        color:#35BDFF;
+      }
+.tupian{
+	position: relative;
+	margin-left: -20px;
+}
+.normalMenu, .hoverMenu {
+    outline: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.hoverMenu {
+    margin-top: -24px;
+    background: #000;
+}
+
+.normalMenu {
+    color: white;
+    background: #000;
+}
